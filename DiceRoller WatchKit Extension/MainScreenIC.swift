@@ -99,6 +99,7 @@ class MainScreenIC: WKInterfaceController
                 //["attack"] : [AnyObject]?
                 DiceRollerCore.theRolls[theRow].name = vals![0] as! String
                 self.popToRootController()
+                self.updateUserDefaults()
                 self.generateTable()
             }
         }
