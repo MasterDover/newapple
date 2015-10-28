@@ -19,6 +19,9 @@ class QuantitySelectScreenIC: WKInterfaceController
         DiceRollerCore.numDice = value + 1
     }
     
+    //  !!!EXAMPLE OF VOICE TO TEXT!!!
+    
+    
     @IBAction func selectNameButtonPressed()
     {
         let suggestions = ["attack","initiative","damage"]
@@ -31,6 +34,10 @@ class QuantitySelectScreenIC: WKInterfaceController
 
        
     }
+    
+    
+    //  !!!EXAMPLE OF PCIKER VIEW!!!
+    
     
     override func awakeWithContext(context: AnyObject?)
     {
